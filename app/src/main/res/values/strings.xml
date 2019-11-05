@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FaceTok</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="privacy_string">All rights are ® 2019 FacTok reserved</string>
+    <string name="unique_username">Congratulation This User Name is Available Do you Want to continue </string>
+    <string name="permissionMessage">Please enable all permissions</string>
+    <string name="phonePermissionTitle">Why all these permissions</string>
+    <string name="phonePermissionMainBody">All these permissions are essential for smooth working of this app</string>
+    <string name="snakebarPhonePermissionsEnableMessage">Please enable all permissions</string>
+    <!--<String name="login_activity_main_strig">Login Here sequrely with mobile number or social media accounts</String>-->
+</resources>

@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "861309750978",
+    "firebase_url": "https://facetok-f9962.firebaseio.com",
+    "project_id": "facetok-f9962",
+    "storage_bucket": "facetok-f9962.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861309750978:android:6b988bb938e7299e",
+        "android_client_info": {
+          "package_name": "com.example.facetok"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "861309750978-6ktb27rsd9008unmpmti5dn72mks9qnv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.facetok",
+            "certificate_hash": "c6e44b4d5f7e4f04fef9aa68e8f8533ca04ec142"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDoAglS_JR4dnIVKOnTssjGDkKckoMBDA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "861309750978-5qao69k9k25gts2ij7o80fv2nt917s2v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

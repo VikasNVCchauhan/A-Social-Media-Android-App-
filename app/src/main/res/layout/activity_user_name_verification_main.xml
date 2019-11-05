@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_login_main"
+    android:gravity="center"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/text_view_verify_user_name_activity_user_name_verification_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Select A unique user Name for more searching optimization"
+        android:textSize="14dp" />
+
+    <EditText
+        android:maxLines="1"
+        android:id="@+id/edit_text_unique_user_name_activity_user_name_verification_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_verify_user_name_activity_user_name_verification_main"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+        android:drawablePadding="10dp"
+        android:hint="Enter Unique Name (i.e vikas_nvc_chauhan007)"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/button_verify_unique_user_name_activity_user_name_verification_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_text_unique_user_name_activity_user_name_verification_main"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/login_button"
+        android:elevation="10dp"
+        android:text="Verify User Name"
+        android:textColor="@android:color/white" />
+</RelativeLayout>

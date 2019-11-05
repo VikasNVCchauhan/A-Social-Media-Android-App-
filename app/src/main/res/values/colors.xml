@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorVideoUploadfButton">#c72b3a</color>
+    <color name="colorAccent">#F14400</color>
+    <color name="colorSign_up">#355EE7</color>
+    <color name="transparent_background">@null</color>
+    <color name="colorVideoBackground">#6B6B6A</color>
+    <color name="colorGoogle">#c72b3a</color>
+    <color name="colorFacebook">#4644a4</color>
+    <color name="viewsColor">#F14400</color>
+    <color name="white">#FAF8F7</color>
+    <color name="transparent">#00000000</color>
+    <color name="light_black">#DD3D3D3D</color>
+    <color name="colorBottomNavigationBackground">#747171</color>
+    <color name="NormaTextColor">#E9E9E9</color>
+
+    <style name="Theme.Transparent" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+</resources>

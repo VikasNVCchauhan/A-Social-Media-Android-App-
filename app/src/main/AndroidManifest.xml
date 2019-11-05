@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.facetok">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Home.Home_Main" />
+        <activity android:name=".Notifications.NotificationsMain" />
+        <activity android:name=".UserPhotos.PhotosMainClass" />
+        <activity android:name=".Login_SignUp.LoginMainClass" />
+        <activity android:name=".Login_SignUp.PhoneVerificationMainClass" />
+        <activity android:name=".Login_SignUp.OtpVerificationMainClass" />
+        <activity android:name=".Login_SignUp.SignUpMainClass" />
+        <activity android:name=".UserPhotosMainPackeg.UserImagesMain" />
+        <activity android:name=".Login_SignUp.PasswordSettingMain" />
+        <activity android:name=".Login_SignUp.SetUniqueUserNameClass" />
+        <activity android:name=".UploadOption.UploadOptionMain" />
+        <activity android:name=".UploadVideoOption.UploadVideoMainClass"/>
+        <activity android:name=".UploadImagesOption.UploadImageMainClass"/>
+    </application>
+
+</manifest>

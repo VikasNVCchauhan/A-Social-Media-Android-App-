@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop=".5dp"
+    android:layout_marginBottom=".5dp"
+    android:padding="1dp"
+    app:cardCornerRadius="2dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp">
+
+        <RelativeLayout
+            android:id="@+id/linear_layout_user_photos_list_item_photos_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image_view_user_uploaded_image_list_item_photos_recycler_view"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/circle_image_user_profile_list_item_photos_recycler_view"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:src="@mipmap/horizontal_recycler_view_women"
+                app:civ_border_color="@color/colorAccent"
+                app:civ_border_width="1dp" />
+
+            <RelativeLayout
+                android:id="@+id/relative_layout_user_profile_short_description__list_item_photos_recycler_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/circle_image_user_profile_list_item_photos_recycler_view"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/text_view_user_unique_name_list_item_photo_recycler_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vikas_nvc_chauhan007"
+                    android:textColor="@android:color/black"
+                    android:textSize="13dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text_view_user_unique_name_list_item_photo_recycler_view"
+                    android:layout_marginTop="2dp"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/text_view_follow_button_list_item_photo_recycler_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/background_follow_option"
+                        android:paddingLeft="7dp"
+                        android:paddingRight="7dp"
+                        android:text="Follow"
+                        android:textColor="@android:color/white"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_layout_heart_list_item_photo_recycler_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp">
+
+                <ImageView
+                    android:id="@+id/image_view_heart_like_list_item_photo_recycler_view"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_favorite_border_light_black_24dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_layout_re_post_images_list_item_photo_recycler_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@+id/linear_layout_heart_list_item_photo_recycler_view">
+
+                <ImageView
+                    android:id="@+id/image_view_re_post_images_list_item_photo_recycler_view"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:src="@drawable/ic_re_post_black_24dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@+id/linear_layout_re_post_images_list_item_photo_recycler_view">
+
+                <ImageView
+                    android:id="@+id/image_view_comment_list_item_photo_recycler_view"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/ic_insert_comment_black_24dp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/image_view_user_uploaded_image_list_item_photos_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="10dp"
+            android:maxHeight="350dp"
+            android:minHeight="250dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/horizontal_recycler_view_women" />
+
+        <LinearLayout
+            android:id="@+id/relative_layout_detail_image_list_item_photos_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linear_layout_user_photos_list_item_photos_recycler_view"
+            android:layout_marginLeft="15sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="15sp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/text_view_like_count_list_item_photos_recycler_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="2sp"
+                android:text="100k"
+                android:textColor="@color/light_black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@+id/text_view_like_count_list_item_photos_recycler_view"
+                android:text=".Likes" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/text_view_comment_count_list_item_photos_recycler_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="2dp"
+                    android:layout_toLeftOf="@+id/text_view_comment_list_item_photos_recycler_view"
+                    android:text="20k"
+                    android:textColor="@color/light_black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text_view_comment_list_item_photos_recycler_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="2sp"
+                    android:text=".Comments" />
+            </LinearLayout>
+            <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerHorizontal="true">-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/text_view_impression_count_list_item_photos_recycler_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="2dp"
+                    android:layout_toLeftOf="@+id/text_view_re_post_fav_list_item_photos_recycler_view"
+                    android:text="1M"
+                    android:textColor="@color/light_black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text_view_impression_list_item_photos_recycler_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/text_view_impression_list_item_photos_recycler_view"
+                    android:layout_alignLeft="@+id/text_view_impression_list_item_photos_recycler_view"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginLeft="0dp"
+
+                    android:text=".Impression" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_view_re_post_count_list_item_photos_recycler_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="2dp"
+                android:layout_toLeftOf="@+id/text_view_impression_list_item_photos_recycler_view"
+                android:text="20k"
+                android:textColor="@color/light_black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_view_re_post_list_item_photos_recycler_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2sp"
+                android:maxLines="1"
+                android:text=".RePost" />
+            <!--</LinearLayout>-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_layout_people_liked_image_list_item_photos_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linear_layout_description_list_item_photos_recycler_view"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_view_user_description_list_item_photos_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="failure is the opportunity to begin again more intelligentlyfailure is the opportunity to begin again more intelligently"
+                android:textColor="@android:color/black"
+                android:textSize="12.5sp" />
+
+            <LinearLayout
+                android:id="@+id/linear_layout_more_option_list_item_photos_recycler_view"
+                android:layout_width="wrap_content"
+                android:layout_height="18dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/text_view_more_description_list_item_photos_recycler_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="more"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/text_view_more_description_icon_list_item_photos_recycler_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/ic_arrow_drop_down_orange_24dp"
+                    android:gravity="center"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="13sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_layout_description_list_item_photos_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relative_layout_detail_image_list_item_photos_recycler_view"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="15dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/relative_layout_liked_people_circle_image__list_item_photos_recycler_view1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/circle_image_view_people_liked_image_list_item_photos_recycler_view1"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@mipmap/horizontal_recycler_view_women"
+                    app:civ_border_color="@color/colorAccent"
+                    app:civ_border_width=".3dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/circle_image_view_people_liked_image__list_item_photos_recycler_view2"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@mipmap/horizontal_recycler_view_women"
+                    app:civ_border_color="@color/colorAccent"
+                    app:civ_border_width=".3dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/circle_image_view_people_liked_image_list_item_photos_recycler_view3"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_toRightOf="@+id/circle_image_view_people_liked_image_list_item_photos_recycler_view1"
+                    android:src="@mipmap/horizontal_recycler_view_women"
+                    app:civ_border_color="@color/colorAccent"
+                    app:civ_border_width=".3dp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp">
+
+                <TextView
+                    android:id="@+id/text_view_people_liked_photo_list_item_photos_recycler_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="priya chauhan"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:text="and"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/text_view_people_liked_photo_count_list_item_photos_recycler_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:text="90"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:text="other liked"
+                    android:textSize="13sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linear_layout_people_liked_image_list_item_photos_recycler_view"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+
+            <TextView
+                android:id="@+id/text_view_description_list_item_photos_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/text_view_view_comments_list_item_photos_recycler_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="0dp"
+                android:text="View Comments"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_view_date_list_item_photos_recycler_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="25 Aug,2019"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/text_view_time_list_item_photos_recycler_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/text_view_date_list_item_photos_recycler_view"
+                android:text="11:25 Pm"
+                android:textSize="12sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

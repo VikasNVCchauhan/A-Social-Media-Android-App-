@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:landroid="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft=".5dp"
+    android:paddingTop=".5dp"
+    android:paddingRight=".5dp">
+
+    <RelativeLayout
+        android:id="@+id/card_view_search_user_name_video_photos_activity_search_video_main"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/viewsColor"
+        android:padding="5dp">
+
+        <EditText
+            android:id="@+id/searchBar_search_activity"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/searchbar_for_main_navigation"
+            android:focusable="true"
+            android:hint="Search for products, Brand and More"
+            android:inputType="text"
+            android:maxLines="1"
+            android:paddingLeft="15dp"
+            android:paddingRight="10dp"
+            android:scrollHorizontally="true"
+            android:textSize="15dp"
+            landroid:drawableRight="@drawable/search_icon" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scroll_view_activity_search_user_video_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view_horizontal_activity_search_video_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:orientation="horizontal"
+                android:padding=".5dp">
+
+            </android.support.v7.widget.RecyclerView>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view_vertical_activity_search_video_main"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="1dp"
+                android:orientation="horizontal"
+                android:padding=".5dp">
+
+            </android.support.v7.widget.RecyclerView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

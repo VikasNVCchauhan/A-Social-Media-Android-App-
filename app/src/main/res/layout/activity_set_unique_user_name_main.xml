@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:gravity="center"
+        android:text="Set Unique User Name For more accurate searching on this application " />
+
+    <EditText
+        android:id="@+id/edit_text_unique_use_name_activity_set_unique_user_name_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_person_profile_count_black_24dp"
+        android:drawablePadding="10dp"
+        android:hint="Enter Unique User Name"
+        android:maxLines="1"
+        android:maxEms="1"
+        android:paddingLeft="10dp"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/button_verify_checking_availability_activity_set_unique_user_name_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/login_button"
+        android:elevation="10dp"
+        android:text="Checking Availability"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

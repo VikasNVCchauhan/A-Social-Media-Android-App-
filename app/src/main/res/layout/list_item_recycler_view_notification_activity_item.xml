@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="1dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        app:cardCornerRadius="1dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/circle_image_view_notification_list__notification"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@mipmap/horizontal_recycler_view_women" />
+
+            <TextView
+                android:id="@+id/text_view_user_name_id_list_item_recycler_view_notification_activity_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/circle_image_view_notification_list__notification"
+                android:text="#chauhan_vikas" />
+
+            <ImageView
+                android:id="@+id/text_view_action_by_user_list_item_recycler_view_notification_activity_item"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/text_view_user_name_id_list_item_recycler_view_notification_activity_item"
+                android:src="@drawable/heart_like_button_trnsparent_drawable" />
+
+            <TextView
+                android:id="@+id/text_view_action_type_list_item_recycler_view_notification_activity_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/text_view_action_by_user_list_item_recycler_view_notification_activity_item"
+                android:text="Liked" />
+
+            <Button
+                android:id="@+id/button_follow_list_item_recycler_view_notification_activity_item"
+                android:layout_width="65dp"
+                android:layout_height="25dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:background="@color/viewsColor"
+                android:text="Follow"
+                android:textSize="10dp" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

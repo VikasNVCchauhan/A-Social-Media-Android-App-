@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Verify OTP Here securely with FceTok " />
+
+    <EditText
+        android:id="@+id/edit_text_phone_number_activity_verify_otp_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_verified_user_black_24dp"
+        android:drawablePadding="10dp"
+        android:hint="Verify OTP"
+        android:maxLines="1"
+        android:inputType="number"
+        android:paddingLeft="10dp"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/button_verify_otp_activity_verify_otp_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/login_button"
+        android:elevation="10dp"
+        android:text="Verify OTP"
+        android:textColor="@android:color/white" />
+
+    <LinearLayout
+        android:paddingRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="end">
+
+        <TextView
+            android:id="@+id/text_view_resend_otp_activity_verify_otp_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="Resend OTP" />
+    </LinearLayout>
+</LinearLayout>
