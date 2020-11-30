@@ -57,5 +57,5 @@ This is also a custom dialog box where anyone can see the bio of perticuler user
 
 #### 11). Selection Of User Name.
 
-<img src="https://github.com/VikasNVCchauhan/A-Social-Media-Android-App-/blob/master/ScreenShots/Screenshot_20201129-182752.jpg"  width="20%" height="70%" >  <img src="https://github.com/VikasNVCchauhan/A-Social-Media-Android-App-/blob/master/ScreenShots/Screenshot_20201129-182812.jpg"  width="20%" height="70%" >  <img src="https://github.com/VikasNVCchauhan/A-Social-Media-Android-App-/blob/master/ScreenShots/Screenshot_20201129-182818.jpg"  width="20%" height="70%" > 
+<img src="https://github.com/VikasNVCchauhan/A-Social-Media-Android-App-/blob/master/ScreenShots/Screenshot_20201129-182812.jpg"  width="20%" height="70%" >  <img src="https://github.com/VikasNVCchauhan/A-Social-Media-Android-App-/blob/master/ScreenShots/Screenshot_20201129-182818.jpg"  width="20%" height="70%" > 
 
