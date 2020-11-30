@@ -49,13 +49,14 @@ This is also a custom dialog box where anyone can see the bio of perticuler user
 
 #### 9). Sign-up With Number.
 
-<img src="https://github.com/VikasNVCchauhan/A-Social-Media-Android-App-/blob/master/ScreenShots/Screenshot_20201129-182703.jpg"  width="20%" height="70%" >
+<img src="https://github.com/VikasNVCchauhan/A-Social-Media-Android-App-/blob/master/ScreenShots/Screenshot_20201129-182703.jpg"  width="20%" height="70%" >  <img src="https://github.com/VikasNVCchauhan/A-Social-Media-Android-App-/blob/master/ScreenShots/Screenshot_20201129-182716.jpg"  width="20%" height="70%" > 
 
-#### 10). Verification Of Phone Number In Progress.
+#### 10). Verification Of OTP.
 
-<img src="https://github.com/VikasNVCchauhan/A-Social-Media-Android-App-/blob/master/ScreenShots/Screenshot_20201129-182716.jpg"  width="20%" height="70%" > <img src="https://github.com/VikasNVCchauhan/A-Social-Media-Android-App-/blob/master/ScreenShots/Screenshot_20201129-182716.jpg"  width="20%" height="70%" >
+<img src="https://github.com/VikasNVCchauhan/A-Social-Media-Android-App-/blob/master/ScreenShots/Screenshot_20201129-182733.jpg"  width="20%" height="70%" >  <img src="https://github.com/VikasNVCchauhan/A-Social-Media-Android-App-/blob/master/ScreenShots/Screenshot_20201129-182738.jpg"  width="20%" height="70%" >
 
-#### 11). Verification Of OTP.
+#### 11). Selection Of User Name.
 
-<img src="https://github.com/VikasNVCchauhan/A-Social-Media-Android-App-/blob/master/ScreenShots/Screenshot_20201129-182733.jpg"  width="20%" height="70%" > <img src="https://github.com/VikasNVCchauhan/A-Social-Media-Android-App-/blob/master/ScreenShots/Screenshot_20201129-182738.jpg"  width="20%" height="70%" >
+<img src="https://github.com/VikasNVCchauhan/A-Social-Media-Android-App-/blob/master/ScreenShots/Screenshot_20201129-182752.jpg"  width="20%" height="70%" >  <img src="https://github.com/VikasNVCchauhan/A-Social-Media-Android-App-/blob/master/ScreenShots/Screenshot_20201129-182812.jpg"  width="20%" height="70%" >  <img src="https://github.com/VikasNVCchauhan/A-Social-Media-Android-App-/blob/master/ScreenShots/Screenshot_20201129-182818.jpg
+"  width="20%" height="70%" > 
 
